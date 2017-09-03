@@ -50,6 +50,8 @@ main {
     box-shadow: 2px 2px 0 0 rgba(119, 80, 80, 0.5);
     background-color: red;
     color: white;
+
+    visibility: collapse;
 }
 
 .slideDown{
@@ -57,6 +59,7 @@ main {
 
     animation-duration: 1s;
     animation-timing-function: ease;
+    visibility: visible;
 }
 
 @keyframes slideDown {
