@@ -2,9 +2,14 @@ html, body {
     margin: 0;
     font-family: cursive;
     background-image: linear-gradient(to bottom right, grey, #7f52dc);
-    color: #262627;
+    color: #FEFFEA;
     height: 100vh;
     overflow: hidden;
+}
+
+a {
+    color: #3C91E6;
+    text-decoration: none;
 }
 
 body {
@@ -14,13 +19,14 @@ body {
 
 header, footer {
     padding: 0 1rem;
-    background-color: aliceblue;
+    background-color: #4B3F72;
+    border-color: #FEFFEA;
 }
 
 header {
     padding: 1rem;
     text-align: left;
-    border-bottom: 1px solid #7f52dc;
+    border-bottom: 1px solid;
 }
 
 header h1 {
@@ -28,7 +34,7 @@ header h1 {
 }
 
 footer {
-    border-top: 1px solid #7f52dc;
+    border-top: 1px solid;
     text-align: right;
 }
 
@@ -38,7 +44,7 @@ main {
 }
 
 .brand {
-    color: rgb(156, 255, 30);
+    color: #44CF6C;
     font-family: cursive;
 }
 
