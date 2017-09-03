@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    font-family: cursive;
+    background-image: linear-gradient(to bottom right, grey, #7f52dc);
+    color: #262627;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    padding: 0 1rem;
+    background-color: aliceblue;
+}
+
+header {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #7f52dc;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    border-top: 1px solid #7f52dc;
+    text-align: right;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+}
+
+.brand {
+    color: rgb(156, 255, 30);
+    font-family: cursive;
+}
+
+.under-construction {
+    position: absolute;
+    right: 0.5rem;
+
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 0 0 rgba(119, 80, 80, 0.5);
+    background-color: red;
+    color: white;
+}
+
+.slideDown{
+    animation-name: slideDown;
+
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(8%);
+    }
+    65%{
+        transform: translateY(-4%);
+    }
+    80%{
+        transform: translateY(4%);
+    }
+    95%{
+        transform: translateY(-2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
