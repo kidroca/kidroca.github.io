@@ -52,6 +52,7 @@ main {
     color: white;
 
     visibility: collapse;
+    cursor: pointer;
 }
 
 .slideDown{

@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
     setTimeout(function() {
-        document.querySelector('.under-construction').classList.add('slideDown');
+        var section = document.querySelector('.under-construction');
+
+        section.classList.add('slideDown');
+
+        section.addEventListener('click', function () {
+            section.parentNode.removeChild(section);
+        })
     }, 1500);
 });
